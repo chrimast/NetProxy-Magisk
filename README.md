@@ -6,4 +6,4 @@
 手机：先刷官方 NetProxy zip（保留数据），再刷本包。
 
 内容：自签 APK 8.8.8 + 配对 DEX + `bin/netproxyctl`（链式 UI + AnyTLS Reality 导入）。不改 `sing-box`。
-模块 id 是 `netproxy-overlay`，可删除；不要禁用原来的 NetProxy。
+安装后会在几秒内删掉 Overlay 目录，KernelSU 列表里不应留下 Overlay 项。不要禁用原来的 NetProxy。
